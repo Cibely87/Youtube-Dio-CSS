@@ -1,57 +1,87 @@
-@import url(./global.css);
 
-.container-header {
-    width: 144px;
-    height: 56px;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    gap: 10px;
-    position: relative;
-    background-size: cover;
-    background: rgba(255, 255, 255, 1);
- }
-
-.header-top {
-    margin-top: 10px;
+header {
+    padding: 8px 24px;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    background-size: cover;
-    background-position: center;
+    display: flex;
  }
 
-.header-search {
+ header .header-top {
+    display: flex;
+    justify-content: center;
+ }
+
+ header .header-top img {
+    margin-left: 32px;
+}
+
+ header .header-search {
     margin-left: 356px;
     margin-right: 356px;
-}
-
-.header-camera .header-alert {
-    margin-top: 10px;
-    align-items: center;
+    display: flex;
     justify-content: center;
-    padding-right: 50px;
 }
 
-main .video {
-    padding-left: 60px;
-    width: 952px;
-    height: 537px;
-    background-size: cover;
-    background-position: center;
+header .header-search input {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #c4abab;
 }
 
-.video-main {
+header .header-search button {
+    width: 57px;
+    height: 40px;
+}
+
+header .header-alert {
     display: flex;
-    position: relative;
-    margin: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    gap:24px;
+}
+
+header .header-alert img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+ }
+
+
+
+main .play-video {
+    margin-left: 80px;
+}
+
+main .play-video-main .title{
     padding: 20px;
-    top: 10px;
-    left: 20px;
-    flex-flow: row wrap;
-    align-content: flex-start;
 }
 
-main .video .dio-logo {
+main .play-videos .details-video {
     display: flex;
-    padding-top: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+aside .playlist-videos {
+    margin-left: 45px;
+}
+
+aside .playlist-videos .video {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+aside .playlist-videos .video .info-video {
+    width: 196px;
+    max-height: 90px;
+    margin-left: 16px;
+}
+
+aside .playlist-videos .video .info-video .channel-video .channel-views {
+    padding-top: 6px;
+}
+
+aside .playlist-videos .video .info-video .channel-video p .channel-views p {
+    font-size: 13px;
 }
