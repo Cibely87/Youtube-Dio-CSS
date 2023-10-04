@@ -1,9 +1,11 @@
+/*HEADER*/
 
 header {
     padding: 8px 24px;
     justify-content: space-between;
     align-items: center;
     display: flex;
+    background: rgba(255, 255, 255, 1);
  }
 
  header .header-top {
@@ -47,41 +49,130 @@ header .header-alert img {
  }
 
 
+/*MAIN*/
+
 
 main .play-video {
-    margin-left: 80px;
+    margin-left: 77px;
+    padding: 10px 0;
+    
 }
 
-main .play-video-main .title{
-    padding: 20px;
+main .views {
+    width: 450px;
+    height: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 19px;
 }
 
-main .play-videos .details-video {
+main .text {
+    padding-top: 40px;
+    width: 500px;
+}
+
+main .dio-logo {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main .buttons-video {
+    display: flex;
     justify-content: flex-start;
+    align-items: center;
+    gap: 42px;
     flex-direction: row;
 }
 
-aside .playlist-videos {
-    margin-left: 45px;
+main .subscribe button {
+    width: 159px;
+    height: 40px;
+    border: transparent;
+    border-radius: 2px;
+    background: #C00;
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
-aside .playlist-videos .video {
+main .play-video .like-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main .play-video .dislike-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main .play-video .share-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main .play-video .donwload-buton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main .like-button p {
+    margin-left: 9px;
+}
+main .dislike-button p {
+    margin-left: 9px;
+}
+main .share-button p {
+    margin-left: 9px;
+}
+main .donwload-buton p {
+    margin-left: 9px;
+}
+
+main .play-video 
+
+
+/*ASIDE*/
+
+main .playlist-videos {
+background-color: #C00;
+
+}
+
+main .video {
     display: flex;
     margin-bottom: 15px;
-}
-
-aside .playlist-videos .video .info-video {
+    flex-direction: column;
     width: 196px;
     max-height: 90px;
     margin-left: 16px;
-}
-
-aside .playlist-videos .video .info-video .channel-video .channel-views {
     padding-top: 6px;
+    font-size: 13px;
 }
 
-aside .playlist-videos .video .info-video .channel-video p .channel-views p {
+main .info-video {
+    width: 196px;
+    max-height: 90px;
+    margin-left: 16px;
+    padding-top: 6px;
     font-size: 13px;
+    flex-direction: column;
+}
+
+main .channel-video  {
+    padding-top: 6px;
+    font-size: 13px;
+    flex-direction: column;
+}
+
+main .channel-views {
+    padding-top: 6px;
+    font-size: 13px;
+    flex-direction: column;
 }
