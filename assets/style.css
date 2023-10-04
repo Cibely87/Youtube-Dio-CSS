@@ -1,48 +1,40 @@
 /*HEADER*/
 
-header {
-    padding: 8px 24px;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    background: rgba(255, 255, 255, 1);
- }
-
- header .header-top {
+.header-top {
     display: flex;
     justify-content: center;
  }
 
- header .header-top img {
+.header-top img {
     margin-left: 32px;
 }
 
- header .header-search {
+.header-search {
     margin-left: 356px;
     margin-right: 356px;
     display: flex;
     justify-content: center;
 }
 
-header .header-search input {
+.header-search input {
     width: 348px;
     height: 40px;
     border: 1px solid #c4abab;
 }
 
-header .header-search button {
+.header-search button {
     width: 57px;
     height: 40px;
 }
 
-header .header-alert {
+.header-alert {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap:24px;
 }
 
-header .header-alert img {
+.header-alert img {
     width: 34px;
     height: 34px;
     border-radius: 50%;
@@ -52,13 +44,12 @@ header .header-alert img {
 /*MAIN*/
 
 
-main .play-video {
+.play-video {
     margin-left: 77px;
     padding: 10px 0;
-    
 }
 
-main .views {
+.views {
     width: 450px;
     height: 25px;
     padding-top: 20px;
@@ -67,19 +58,19 @@ main .views {
     font-size: 19px;
 }
 
-main .text {
+.text {
     padding-top: 40px;
     width: 500px;
 }
 
-main .dio-logo {
+.dio-logo {
     display: flex;
     flex-direction: row;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-main .buttons-video {
+.buttons-video {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -87,7 +78,7 @@ main .buttons-video {
     flex-direction: row;
 }
 
-main .subscribe button {
+.subscribe button {
     width: 159px;
     height: 40px;
     border: transparent;
@@ -98,81 +89,92 @@ main .subscribe button {
     text-transform: uppercase;
 }
 
-main .play-video .like-button {
+.play-video .like-button {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-main .play-video .dislike-button {
+.play-video .dislike-button {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-main .play-video .share-button {
+.play-video .share-button {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-main .play-video .donwload-buton {
+.play-video .donwload-buton {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-main .like-button p {
+.like-button p {
     margin-left: 9px;
 }
-main .dislike-button p {
+.dislike-button p {
     margin-left: 9px;
 }
-main .share-button p {
+.share-button p {
     margin-left: 9px;
 }
-main .donwload-buton p {
+.donwload-buton p {
     margin-left: 9px;
 }
 
-main .play-video 
+/*MAIN RIGHT*/
 
 
-/*ASIDE*/
 
-main .playlist-videos {
-background-color: #C00;
+.video {    
+    height: 90px;
+    width: 160px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.info-video {
+    border: 2px solid rgb(255, 255, 255);
+    height: 90px;
+    width: 160px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#titulo-geral{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 14px;
+    text-align: left;
+    word-wrap: break-word;
 
 }
 
-main .video {
-    display: flex;
-    margin-bottom: 15px;
-    flex-direction: column;
+#canal-youtube{
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+#dados-visualizacao{
     width: 196px;
-    max-height: 90px;
-    margin-left: 16px;
-    padding-top: 6px;
-    font-size: 13px;
-}
-
-main .info-video {
-    width: 196px;
-    max-height: 90px;
-    margin-left: 16px;
-    padding-top: 6px;
-    font-size: 13px;
-    flex-direction: column;
-}
-
-main .channel-video  {
-    padding-top: 6px;
-    font-size: 13px;
-    flex-direction: column;
-}
-
-main .channel-views {
-    padding-top: 6px;
-    font-size: 13px;
-    flex-direction: column;
+    height: 28px;
+    top: 61px;
+    left: 176px;
+    text-align: left;
+    font-size: 12px;
 }
